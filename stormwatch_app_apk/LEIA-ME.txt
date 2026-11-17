@@ -1,0 +1,9 @@
+App StormWatch Atlas (navegador embutido)
+
+1. No GitHub, crie um repositório novo (ex: stormwatch-app), público.
+2. Clique em "uploading an existing file" e arraste TODAS as pastas e arquivos daqui
+   (incluindo a pasta .github). Clique em "Commit changes".
+3. Vá em Actions -> "Montar APK" -> "Run workflow".
+4. Espere uns 5 minutos. Abra a rodada (bolinha verde) e, embaixo, em "Artifacts",
+   baixe "StormWatch-APK". Dentro do zip está o app-debug.apk.
+5. Passe o APK para o celular e instale.
