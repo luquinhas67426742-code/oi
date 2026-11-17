@@ -5,6 +5,9 @@ jobs:
   apk:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: stormwatch_app_apk
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
@@ -18,4 +21,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: StormWatch-APK
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: stormwatch_app_apk/app/build/outputs/apk/debug/app-debug.apk
